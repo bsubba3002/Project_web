@@ -3,144 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Incredible India</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(-45deg, #1a2980, #26d0ce, #ff512f, #dd2476);
-      background-size: 400% 400%;
-      animation: gradientFlow 20s ease infinite;
-      color: white;
-    }
-
-    @keyframes gradientFlow {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-
-    header {
-      text-align: center;
-      padding: 40px 20px;
-      background-color: rgba(0, 0, 0, 0.4);
-      font-size: 2.5em;
-      font-weight: bold;
-      letter-spacing: 2px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    }
-
-    main {
-      max-width: 900px;
-      margin: 40px auto;
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 30px;
-      border-radius: 20px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-      backdrop-filter: blur(10px);
-    }
-
-    section {
-      margin-bottom: 40px;
-    }
-
-    section h2 {
-      font-size: 1.8em;
-      margin-bottom: 10px;
-      border-bottom: 2px solid #ffffff88;
-      padding-bottom: 5px;
-    }
-
-    section p {
-      font-size: 1.1em;
-      line-height: 1.8;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: rgba(0, 0, 0, 0.3);
-      font-size: 1em;
-      margin-top: 40px;
-      box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
-    }
-
-    @media (max-width: 768px) {
-      main {
-        margin: 20px;
-        padding: 20px;
-      }
-      header {
-        font-size: 2em;
-        padding: 30px 15px;
-      }
-    }
-  </style>
+  <title>Project Page Jumper</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-  <header>🇮🇳 Welcome to Incredible India</header>
+  <!-- HEADER -->
+  <header>
+    <a href="index.html" class="logo-link">
+      <img src="assets/atech-logo.png" alt="ATECH Logo" class="logo-img" />
+    </a>
+    <nav>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
 
-  <main>
-    <section>
-      <h2>About India</h2>
-      <p>
-        India is a vast and diverse country, home to over 1.4 billion people. It's the cradle of one
-        of the world's oldest civilizations and a land where ancient traditions blend seamlessly with
-        modern innovations. India is the seventh-largest country by land area and boasts a wide
-        variety of landscapes, climates, and ecosystems.
-      </p>
-    </section>
+  <!-- HERO -->
+  <section class="hero">
+    <img src="assets/atech-logo.png" alt="ATECH Logo" class="hero-logo" />
+    <h1>Explore Awesome Projects</h1>
+    <p>Jump into innovative projects and find your inspiration.</p>
+  </section>
 
-    <section>
-      <h2>🧭 Geography</h2>
-      <p>
-        From the towering Himalayas in the north to the sun-kissed beaches in the south, India's
-        geography is breathtaking. The Thar Desert in the west contrasts with the lush forests of the
-        northeast. Major rivers like the Ganges, Yamuna, and Brahmaputra sustain millions of lives.
-      </p>
-    </section>
-
-    <section>
-      <h2>🕉️ Culture & Festivals</h2>
-      <p>
-        India's culture is a rich mosaic of languages, religions, music, dance, and art. It is known
-        for its colorful festivals like Diwali (Festival of Lights), Holi (Festival of Colors), Eid,
-        Christmas, Pongal, and Navratri. Each festival is celebrated with immense enthusiasm and unity.
-      </p>
-    </section>
-
-    <section>
-      <h2>🧠 Education & Innovation</h2>
-      <p>
-        India is home to prestigious institutions like the IITs and IIMs. It has a rapidly growing
-        tech industry and a vibrant startup ecosystem. Indian scientists and engineers contribute
-        significantly to global advancements in space, medicine, and technology.
-      </p>
-    </section>
-
-    <section>
-      <h2>🏞️ Tourism Highlights</h2>
-      <p>
-        India offers a rich array of tourism experiences. Visit the Taj Mahal, a symbol of love;
-        explore the backwaters of Kerala; enjoy spiritual peace in Rishikesh; or trek through
-        Himalayan valleys. Every region has a unique charm and story to tell.
-      </p>
-    </section>
-
-    <section>
-      <h2>🇮🇳 National Symbols</h2>
-      <p>
-        - **National Animal**: Bengal Tiger 🐅  
-        - **National Bird**: Indian Peacock 🦚  
-        - **National Flower**: Lotus 🌸  
-        - **National Anthem**: "Jana Gana Mana"  
-        - **National Flag**: Tricolor with Ashoka Chakra
-      </p>
-    </section>
-  </main>
-
-  <footer>✨ © 2025 Incredible India. All rights reserved. ✨</footer>
+  <!-- PROJECT CARDS GRID -->
+  <section class="projects-grid">
+    <div class="project-card">
+      <h2>Project 1</h2>
+      <p>This is a short description of Project 1.</p>
+      <a href="project1.html">View Details</a>
+    </div>
+    <div class="project-card">
+      <h2>Project 2</h2>
+      <p>This is a short description of Project 2.</p>
+      <a href="project2.html">View Details</a>
+    </div>
+    <div class="project-card">
+      <h2>Project 3</h2>
+      <p>This is a short description of Project 3.</p>
+      <a href="project3.html">View Details</a>
+    </div>
+    <div class="project-card">
+      <h2>Project 4</h2>
+      <p>This is a short description of Project 4.</p>
+      <a href="project4.html">View Details</a>
+    </div>
+    <div class="project-card">
+      <h2>Project 5</h2>
+      <p>This is a short description of Project 5.</p>
+      <a href="project5.html">View Details</a>
+    </div>
+  </section>
 
 </body>
 </html>
